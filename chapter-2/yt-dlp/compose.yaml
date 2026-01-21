@@ -1,0 +1,7 @@
+services:
+  yt-dlp-ubuntu:
+    image: schemist/yt-dlp
+    build: .
+    volumes:
+      - .:/mydir
+    container_name: yt-dlp
